@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .navbarlogo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logotext {
+    color: #000000; 
+    letter-spacing: 4px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  
+ .svg-logo{
+
+    margin-right: 15px;
+ }
+  
+  .navbar-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #f75e82; 
+  }
+  
+  .navbar-logout {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .logout-icon {
+    color: #333; 
+  }
+  
+  .logout-icon:hover {
+    color: #f75e82;
+  }
+  

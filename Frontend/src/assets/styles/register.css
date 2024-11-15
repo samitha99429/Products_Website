@@ -1,0 +1,79 @@
+
+.container {
+    min-height: 100%;
+
+}
+
+.registerCard {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logoText {
+    font-size: 32px;
+    font-weight: bold;
+    color: #103ed7;
+    margin-bottom: 30px;
+}
+
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    height: 45px;
+}
+input[type="password"].is-invalid {
+    border-color: #e74c3c;
+}
+
+.invalid-feedback {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.btn-primary {
+    background-color: #f0567c;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e0456c;
+}
+
+
+.text-danger {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+p a {
+    color: #f0567c;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

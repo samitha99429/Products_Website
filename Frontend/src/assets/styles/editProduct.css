@@ -1,0 +1,80 @@
+
+.edit-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 8px;
+ 
+}
+
+.edit-container .ant-form-item-label > label {
+  font-weight: 600;
+  color: #333;
+}
+
+.edit-container .ant-input,
+.edit-container .ant-input-number {
+  border-radius: 4px;
+}
+
+.edit-container .ant-btn-primary {
+  background-color: #001EB1;
+  border-color: #001EB1;
+}
+
+.edit-container .ant-btn-primary:hover {
+  background-color: #0044cc;
+  border-color: #0044cc;
+}
+.edit-container .existing-images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.existing-images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.existing-images img:hover {
+  border-color: #001EB1;
+}
+
+.existing-images img.selected {
+  border-color: #001EB1;
+}
+
+.existing-images .delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.edit-container .ant-upload {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.edit-container .ant-upload .ant-btn {
+  width: 100%;
+}
